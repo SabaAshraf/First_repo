@@ -1,4 +1,9 @@
 ---
+title: Welcome To Jekyll
+date: 2017-07-06 00:00:00 Z
+---
+
+---
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-07-06 16:01:03 +0530
