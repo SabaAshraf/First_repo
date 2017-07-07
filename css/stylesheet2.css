@@ -1,0 +1,332 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+header{
+	background: url(../images/backgroundabout.jpg) no-repeat;
+	height: 650px;
+	background-size: cover;
+	    overflow: hidden;
+}
+.container{
+	max-width: 1200px;
+	margin:0px auto;
+	overflow: hidden;
+}
+#logo{
+	padding-top: 30px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #4c6c6c;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#logo div{
+	width: 49%;
+    float: left;
+}
+/*#logo img{
+	padding-left: 200px;
+}*/
+#pipe{
+	padding-left: 24px;
+    color: #4d6768;
+}
+.phone_icon{
+	padding-left: 20px;
+	color: #bec8c8
+}
+#phone_number{
+	color: #fff;
+	font-size: 13px;
+	line-height: 21px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+nav{
+	float: right;
+    width: 51%;
+}
+nav ul{
+	display: inline-flex;
+    margin: 0px;
+}
+nav ul li {
+	list-style-type: none;
+}
+nav ul li a{
+	text-decoration: none;
+	display: inline;
+	padding-right: 20px;
+	color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+nav a button{
+	padding: 10px 15px;
+    background: #6a7f7f;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 12px;
+    line-height: 21px;
+    border-radius: 3px;
+}
+#main{
+	text-align: center;
+	margin-top: 150px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+#main p{
+	font-family:'Roboto';
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 60px;
+	color: #fff;
+}
+#main button{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	padding: 17px 30px;
+	background-color: #6fb048;
+	border:none;
+	border-radius: 3px;
+	text-transform: uppercase;
+} 
+#about_us{
+	text-align: center;
+	padding-top: 72px;
+	padding-bottom: 82px;
+	padding-left: 240px;
+    padding-right: 240px;
+}
+#about_us>p:nth-of-type(1),#team>p:nth-of-type(1){
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 20px;
+	color: #0f5f5c;
+}
+#about_us>p:nth-of-type(2),#team>p:nth-of-type(2){
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #83a7a5;
+}
+#about_us_inner>.container> div{
+	width: 29%;
+	display: inline-block;
+	/*margin-top: 85px;*/
+	/*margin-right: 55px;*/
+	/*border:1px solid;*/
+	vertical-align: top;
+}
+#about_us_inner>.container> div p{
+	font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #83a7a5;
+    /*padding-right: 13px;*/
+}
+#about_us_inner>.container> div h3{
+	font-size: 16px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-family: Roboto;
+    font-weight: 400;
+}
+#about_us_inner>.container> div img {
+    height: 52px;
+    width: 52px;
+}
+#about_us_inner{
+	text-align: center;
+	padding-bottom: 100px;
+	padding-left: 73px;
+    padding-right: 73px;
+}
+#team{
+	padding-top: 70px;
+	padding-bottom: 80px;
+	text-align: center;
+	padding-left: 255px;
+    padding-right: 255px;
+}
+#team_section{
+	background: url(../images/teamcover.jpg) no-repeat;
+	background-size: cover;
+}
+.developer{
+	display: inline-block;
+	width: 25%;
+}
+#employees{
+	/*padding-left: 103px;
+    padding-right: 103px;*/
+    padding-bottom: 105px;
+    overflow: hidden;
+}
+#joyce{
+	margin-left: 103px;
+	margin-right: 40px;
+}
+#james{
+	margin-right: 103px;
+	margin-left: 40px;
+}
+.developer>h5:nth-of-type(1){
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #0f5f5c;
+	margin: 0px;
+	margin-top: 15px;
+}
+.developer>h5:nth-of-type(2){
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #83a7a5;
+	margin: 0px;
+}
+#download{
+	background: url(../images/download2.jpg) no-repeat;
+	background-size: cover;
+	/*padding: 75px 73px 78px 73px;*/
+	padding-top: 75px;
+	padding-bottom: 78px;
+}
+#download>.container>.wrap>#left>p:nth-of-type(1){
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 22px;
+	color: #fff;
+	margin: 0px;
+}
+#download>.container>.wrap>#left>p:nth-of-type(2){
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #fff;
+	margin: 0px;
+	margin-top: 13px;
+}
+#download button{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 22px;
+	color: #fff;
+	background-color: #49732f;
+	padding: 13px 22px;
+	border:none;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+#left{
+	float: left;
+	/*margin-left: 73px;*/
+}
+#right{
+	float: right;
+}
+.help{
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+}
+.help h5{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 22px;
+	color: #0f5f5c;
+	margin: 0px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.help ul{
+	margin: 0px;
+}
+.help ul li a{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 28px;
+	color: #83a7a5;
+}
+#wapik{
+	padding-top: 95px;
+	padding-bottom: 55px;
+	padding-left: 73px;
+    padding-right: 73px;
+}
+ul li a{
+	text-decoration: none;
+}
+#wapik_info ul li a{
+	margin-left: -35px;
+}
+#newsletter input{
+	    padding: 12px 17px;
+    border-radius: 2px;
+     border: none; 
+    background-color: #eef1ec;
+    /* color: #fff; */
+    margin-top: 18px;
+}
+footer{
+	margin-left: 73px;
+	 margin-right: 73px;
+    border-top: 1px solid #eef1ec;
+    padding-top: 26px;
+    padding-bottom: 22px;
+    overflow: hidden;
+}
+footer #copyright h6{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #83a7a5;
+	margin: 0px;
+}
+#copyright{
+	float: left;
+}
+.social{
+	float: right;
+
+}
+.social img{
+	margin-right: 10px;
+}
+.wrap{
+	margin-left: 73px;
+	margin-right: 73px;
+	overflow: hidden;
+}
+button{
+	cursor: pointer;
+}
+ul{
+	list-style-type: none;
+}
